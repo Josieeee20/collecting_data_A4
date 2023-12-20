@@ -4,7 +4,7 @@ This repository is only for assignment
 
 ## 1. The Corpus Itself
 
-This corpus mainly collects the Wikipedia information of the Korean boy group 'NCT_127' 'NCT_dream' 'WAYV'.
+This corpus mainly collects the Wikipedia information of the trending Kpop group 'NCT_127' 'NCT_dream' 'WAYV'.
 
 ## 2. Target Audience and Intended Use
 
@@ -32,7 +32,7 @@ To extract part-of-speech tags, the text suggests creating a function that can e
 we firstly use txt format to collect all the text then use csv format to analysis it.
 | Column            | Description                                                                                       |
 |-------------------|---------------------------------------------------------------------------------------------------|
-| Filename      | The name of the original text file in the data folder, serving as a unique identifier for each document.                                        |
+| Group_name     | The name of the original text file in the data folder, serving as a unique identifier for each document.                                        |
 | Title  | Column containing titles associated with the texts, providing additional context or information about the content of each document.  |
 | Doc            | Stores the original text exactly as it appears in the text file, preserving the raw, unprocessed content of each document.                             |
 | Text  |  Column containing preprocessed text of each document, including cleaned or modified versions of the original text.                      |
